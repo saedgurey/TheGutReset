@@ -19,13 +19,15 @@ export default function SIBOLandingPage() {
     { num: "03", title: "Phase 1: Foundation Building (Weeks 1–6)", desc: "Before you kill bacteria, you prepare your body. The exact diet, lifestyle shifts, supplement stack, and biofilm protocol to set your system up for fast, lasting recovery — with minimal die-off.", tags: ["Diet Protocol", "Gut Lining", "Biofilm Disruption", "MMC Restoration"] },
     { num: "04", title: "Phase 2: Antimicrobials — Pattern-Matched to You", desc: "Not one-size-fits-all. Get a tiered antimicrobial strategy calibrated to your gas type — from lightest herbal options to targeted clinical-grade combinations. Exact dosages, timing, and sequencing included.", tags: ["Berberine", "Allicin", "Neem", "Black Seed Oil", "Full Dosing Tables"] },
     { num: "05", title: "Phase 3: Rebuild, Reintroduce & Restabilize", desc: "Killing bacteria is half the battle. Learn how to systematically reintroduce foods, rebuild a resilient microbiome, restore carbohydrate tolerance, and prevent relapse — for good.", tags: ["Probiotics", "Fiber Reintroduction", "Relapse Prevention"] },
-    { num: "06", title: "Complete Supplement Dosing & Timing Tables", desc: "Every supplement, every dose, every timing window laid out in clean reference tables. No guessing. No cross-referencing 40 different sources. Everything you need in one printable reference.", tags: ["Quick Reference", "Printable"] },
+    { num: "06", title: "Phase 4: Prevention and Thriving", desc: "Maintain Motility Post-Treatment. If progress stalls or symptoms return, revisit the fundamentals rather than adding new supplements. Includes post-treatment prokinetics, TUDCA for bile flow, and exactly how to maintain motility and gut clearance.", tags: ["Motility", "Prokinetics", "TUDCA", "Maintenance"] },
+    { num: "07", title: "Complete Supplement Dosing & Timing Tables", desc: "Every supplement, every dose, every timing window laid out in clean reference tables. No guessing. No cross-referencing 40 different sources. Everything you need in one printable reference.", tags: ["Quick Reference", "Printable"] },
   ];
 
   const phases = [
     { num: "01", title: "Foundation", duration: "Weeks 1–6", desc: "Prepare your body before the kill. Build your gut lining, optimize digestion, disrupt biofilms, and support your immune system so treatment lands hard — with minimal die-off.", bullets: ["Low-FODMAP anti-inflammatory diet", "Stomach acid + bile flow restoration", "MMC retraining through meal timing", "Biofilm disruption protocol", "Critical nutrient correction"] },
     { num: "02", title: "Antimicrobials", duration: "~8 Weeks", desc: "Deploy the right antimicrobials for your specific pattern. Tiered from gentle to aggressive, matched to whether you're hydrogen, methane, hydrogen sulfide, or mixed.", bullets: ["Pattern-specific herbal antimicrobials", "Full dosing + timing tables", "Die-off management protocol", "Binder and binding strategy", "Motility support throughout"] },
     { num: "03", title: "Rebuild", duration: "4+ Weeks", desc: "The phase most protocols forget. Systematically reintroduce foods, seed the microbiome, rebuild carbohydrate tolerance, and lock in the habits that prevent relapse.", bullets: ["Probiotic restoration strategy", "Staged fiber reintroduction", "Resistant starch progression", "Long-term relapse prevention", "Progress tracking system"] },
+    { num: "04", title: "Prevention & Thriving", duration: "Ongoing", desc: "Maintain Motility Post-Treatment. If progress stalls or symptoms return, revisit the fundamentals rather than adding new supplements. Consistency with the basics is key.", bullets: ["Prokinetic after antimicrobial therapy", "Stay consistent with the basics", "TUDCA with meals containing fat", "Support for bile flow and fat digestion", "Long-term motility and gut clearance"] },
   ];
 
   const testimonials = [
@@ -36,7 +38,7 @@ export default function SIBOLandingPage() {
 
   const included = [
     "The Complete SIBO Healing Protocol (71 pages)",
-    "Phase 1, 2 & 3 step-by-step roadmap with week-by-week guidance",
+    "Phase 1, 2, 3 & 4 step-by-step roadmap with week-by-week guidance",
     "Pattern-specific antimicrobial protocols (hydrogen, methane, mixed)",
     "Complete supplement dosing & timing reference tables",
     "Biofilm disruption protocol + die-off management guide",
@@ -195,7 +197,7 @@ export default function SIBOLandingPage() {
         <div className="flex items-center gap-3 mb-4" style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.22em", textTransform: "uppercase", color: "rgba(255,255,255,0.5)" }}>
           <span style={{ width: 48, height: 1, background: "rgba(255,255,255,0.4)", display: "inline-block", flexShrink: 0 }} />The Roadmap
         </div>
-        <h2 className="pf font-black leading-[1.1] mb-3" style={{ fontSize: "clamp(22px,4vw,52px)" }}>A Three-Phase System That Actually Works</h2>
+        <h2 className="pf font-black leading-[1.1] mb-3" style={{ fontSize: "clamp(22px,4vw,52px)" }}>A Four-Phase System That Actually Works</h2>
         <p className="mb-10" style={{ fontSize: "clamp(13px,1.8vw,17px)", color: "rgba(255,255,255,0.7)", maxWidth: 540, lineHeight: 1.7 }}>
           Most SIBO treatments fail because they skip preparation and ignore relapse prevention. This protocol does it differently.
         </p>
