@@ -15,7 +15,7 @@ export default function SIBOLandingPage() {
 
   const modules = [
     { num: "01", title: "Understanding Your SIBO — Finally", desc: "Hydrogen, methane, or hydrogen sulfide? Learn exactly which type you have, why it matters, and how your specific gas pattern shapes your symptoms and your treatment path.", tags: ["Diagnosis", "Gas Patterns", "Root Causes"] },
-    { num: "02", title: "The 9 Root Causes Keeping You Stuck", desc: "MMC dysfunction, low stomach acid, poor bile flow, immune weakness, chronic stress, nutrient deficiencies — you'll understand exactly why SIBO came back, and how to close every door it uses to re-enter.", tags: ["Motility", "Bile Flow", "Immunity", "Hormones"] },
+    { num: "02", title: "The 9 Root Causes Keeping You Stuck", desc: "MMC dysfunction, low stomach acid, poor bile flow, immune weakness, chronic stress, nutrient deficiencies, coexisting conditions (hypothyroidism, insulin resistance, celiac, SIFO) — you'll understand exactly why SIBO came back, and how to close every door it uses to re-enter.", tags: ["Motility", "Bile Flow", "Immunity", "Hormones"] },
     { num: "03", title: "Phase 1: Foundation Building (Weeks 1–6)", desc: "Before you kill bacteria, you prepare your body. The exact diet, lifestyle shifts, supplement stack, and biofilm protocol to set your system up for fast, lasting recovery — with minimal die-off.", tags: ["Diet Protocol", "Gut Lining", "Biofilm Disruption", "MMC Restoration"] },
     { num: "04", title: "Phase 2: Antimicrobials — Pattern-Matched to You", desc: "Not one-size-fits-all. Get a tiered antimicrobial strategy calibrated to your gas type — from lightest herbal options to targeted clinical-grade combinations. Exact dosages, timing, and sequencing included.", tags: ["Berberine", "Allicin", "Neem", "Black Seed Oil", "Full Dosing Tables"] },
     { num: "05", title: "Phase 3: Rebuild, Reintroduce & Restabilize", desc: "Killing bacteria is half the battle. Learn how to systematically reintroduce foods, rebuild a resilient microbiome, restore carbohydrate tolerance, and prevent relapse — for good.", tags: ["Probiotics", "Fiber Reintroduction", "Relapse Prevention"] },
@@ -90,11 +90,11 @@ export default function SIBOLandingPage() {
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-5 sm:px-8 lg:px-10 py-3 sm:py-4"
         style={{ background: "rgba(253,250,246,0.93)", backdropFilter: "blur(12px)", borderBottom: "1px solid rgba(122,158,126,0.2)" }}>
         <div className="flex items-center gap-6">
-          <a href="/" className="pf font-bold uppercase tracking-widest no-underline" style={{ fontSize: "clamp(10px,1.5vw,13px)", color: charcoal, opacity: 0.6 }}>Back to Home</a>
+          {/* <a href="/" className="pf font-bold uppercase tracking-widest no-underline" style={{ fontSize: "clamp(10px,1.5vw,13px)", color: charcoal, opacity: 0.6 }}>Back to Home</a> */}
           <div className="pf font-bold uppercase tracking-widest hidden sm:block" style={{ fontSize: "clamp(11px,2vw,15px)", color: sage }}>SIBO Healing Protocol</div>
         </div>
         <div className="flex items-center gap-4">
-          <a href="/candida" className="pf font-bold uppercase tracking-widest no-underline hidden md:block" style={{ fontSize: "clamp(10px,1.5vw,12px)", color: "#8B4F12", opacity: 0.7 }}>Candida Protocol</a>
+          {/* <a href="/candida" className="pf font-bold uppercase tracking-widest no-underline hidden md:block" style={{ fontSize: "clamp(10px,1.5vw,12px)", color: "#8B4F12", opacity: 0.7 }}>Candida Protocol</a> */}
           <a href="https://buy.polar.sh/polar_cl_KHMZ0kftCngKFsdks9VBLh4IHwx6dGekJbJXe0blCIm" style={{ background: sage, fontSize: "clamp(10px,1.5vw,13px)", padding: "8px clamp(12px,3vw,22px)", color: "white", fontWeight: 600, letterSpacing: "0.06em", textTransform: "uppercase", borderRadius: 2, textDecoration: "none", transition: "background .2s" }}
             onMouseEnter={e => (e.target as HTMLAnchorElement).style.background = sageMid} onMouseLeave={e => (e.target as HTMLAnchorElement).style.background = sage}>Get the Protocol →</a>
         </div>
