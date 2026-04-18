@@ -95,7 +95,7 @@ export default function SIBOLandingPage() {
         </div>
         <div className="flex items-center gap-4">
           {/* <a href="/candida" className="pf font-bold uppercase tracking-widest no-underline hidden md:block" style={{ fontSize: "clamp(10px,1.5vw,12px)", color: "#8B4F12", opacity: 0.7 }}>Candida Protocol</a> */}
-          <a href="https://buy.polar.sh/polar_cl_KHMZ0kftCngKFsdks9VBLh4IHwx6dGekJbJXe0blCIm" style={{ background: sage, fontSize: "clamp(10px,1.5vw,13px)", padding: "8px clamp(12px,3vw,22px)", color: "white", fontWeight: 600, letterSpacing: "0.06em", textTransform: "uppercase", borderRadius: 2, textDecoration: "none", transition: "background .2s" }}
+          <a href="https://saedgurey.gumroad.com/l/jcopw" style={{ background: sage, fontSize: "clamp(10px,1.5vw,13px)", padding: "8px clamp(12px,3vw,22px)", color: "white", fontWeight: 600, letterSpacing: "0.06em", textTransform: "uppercase", borderRadius: 2, textDecoration: "none", transition: "background .2s" }}
             onMouseEnter={e => (e.target as HTMLAnchorElement).style.background = sageMid} onMouseLeave={e => (e.target as HTMLAnchorElement).style.background = sage}>Get the Protocol →</a>
         </div>
       </nav>
@@ -117,7 +117,7 @@ export default function SIBOLandingPage() {
               The 71-page, physician-informed protocol that thousands of SIBO sufferers have used to eliminate bloating, restore energy, and finally understand <em>why</em> their gut keeps failing them.
             </p>
             <div className="f4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 flex-wrap">
-              <a href="https://buy.polar.sh/polar_cl_KHMZ0kftCngKFsdks9VBLh4IHwx6dGekJbJXe0blCIm" className="bp w-full sm:w-auto text-center text-white font-semibold tracking-widest uppercase rounded-[2px] no-underline transition-all duration-200"
+              <a href="https://saedgurey.gumroad.com/l/jcopw" className="bp w-full sm:w-auto text-center text-white font-semibold tracking-widest uppercase rounded-[2px] no-underline transition-all duration-200"
                 style={{ background: sage, border: `2px solid ${sage}`, fontSize: "clamp(11px,1.8vw,14px)", padding: "13px clamp(20px,4vw,36px)" }}>Get Instant Access →</a>
               <span className="cursor-pointer font-medium" style={{ color: "#444", textDecoration: "underline", textUnderlineOffset: 4, fontSize: "clamp(12px,1.8vw,14px)" }}
                 onClick={() => document.querySelector("#inside-s")?.scrollIntoView({ behavior: "smooth" })}>See what&apos;s inside</span>
@@ -260,7 +260,7 @@ export default function SIBOLandingPage() {
               </div>
             ))}
           </div>
-          <a href="https://buy.polar.sh/polar_cl_KHMZ0kftCngKFsdks9VBLh4IHwx6dGekJbJXe0blCIm" className="bb block w-full text-center text-white font-bold tracking-widest uppercase no-underline rounded-[2px] transition-colors duration-200 mb-4"
+          <a href="https://saedgurey.gumroad.com/l/jcopw" className="bb block w-full text-center text-white font-bold tracking-widest uppercase no-underline rounded-[2px] transition-colors duration-200 mb-4"
             style={{ background: sage, padding: "clamp(12px,2.5vw,18px) 12px", fontSize: "clamp(11px,1.8vw,14px)" }}>Yes — I&apos;m Ready to Heal My Gut →</a>
           <p className="text-center" style={{ fontSize: "clamp(10px,1.5vw,13px)", color: "#444" }}>🔒 &nbsp;30-Day Money-Back Guarantee · Secure Checkout</p>
         </div>
@@ -290,7 +290,7 @@ export default function SIBOLandingPage() {
         <p className="relative mx-auto mb-8" style={{ fontSize: "clamp(13px,1.8vw,17px)", lineHeight: 1.75, color: "rgba(255,255,255,0.65)", maxWidth: 520 }}>
           Every system in your body is pushing toward recovery — it just needs the environment to make it possible. This protocol clears the path.
         </p>
-        <a href="https://buy.polar.sh/polar_cl_KHMZ0kftCngKFsdks9VBLh4IHwx6dGekJbJXe0blCIm" className="bf inline-block font-bold tracking-widest uppercase no-underline rounded-[2px] transition-colors duration-200 relative mb-4"
+        <a href="https://saedgurey.gumroad.com/l/jcopw" className="bf inline-block font-bold tracking-widest uppercase no-underline rounded-[2px] transition-colors duration-200 relative mb-4"
           style={{ background: "white", color: charcoal, padding: "clamp(12px,2.5vw,20px) clamp(22px,5vw,52px)", fontSize: "clamp(11px,1.8vw,15px)" }}>Get Instant Access — $34 →</a>
         <p className="relative" style={{ fontSize: "clamp(10px,1.5vw,13px)", color: "rgba(255,255,255,0.4)" }}>PDF download · 30-day guarantee · No subscriptions</p>
       </section>
